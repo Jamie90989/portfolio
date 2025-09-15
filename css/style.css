@@ -1,0 +1,100 @@
+/* Reset */
+body {
+    background-color: var(--color-background);
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Palette */
+  :root {
+    /* Backgrounds */
+    --color-background: #fdf6e3;  
+    --color-surface: #ffffff;     
+    
+    /* Primary palette */
+    --color-primary: #4f46e5;     /* Indigo */
+    --color-secondary: #06b6d4;   /* Cyan */
+    --color-accent: #f97316;      /* Orange */
+    
+    /* Support colors */
+    --color-success: #22c55e;     
+    --color-warning: #eab308;     
+    --color-danger: #ef4444;      
+    
+    /* Text */
+    --color-text-primary: #1e293b;
+    --color-text-secondary: #475569;
+    --color-text-invert: #f8fafc;
+  }
+  
+  /* Header wrapper */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 2rem;
+    background: var(--color-primary); /* Indigo navbar */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  /* Logo */
+  .logo img {
+    max-width: 75px;
+    height: auto;
+    display: block;
+  }
+  
+  /* Nav buttons container */
+  .navbarCenter {
+    display: flex;
+    gap: 1.5rem;
+    margin: 0 auto; /* keeps them centered */
+  }
+  
+  /* Buttons */
+  header button {
+    background: var(--color-secondary);   /* Cyan buttons */
+    border: none;
+    color: var(--color-text-invert);      /* Light text */
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    padding: 0.75rem 1.2rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  header button:hover {
+    background: var(--color-accent);      /* Orange hover */
+    color: var(--color-text-invert);
+    transform: translateY(-2px);
+  }
+  
+  header button:active {
+    transform: scale(0.95);
+  }
+  
+  /* Links inside buttons */
+  header button.active {
+    background: var(--color-accent); /* Orange */
+    color: var(--color-text-primary);
+  }
+  
+  header button.active:hover {
+    background: var(--color-accent); /* Keep orange on hover */
+    transform: none;                 /* Disable lift for active */
+  }
+  
+  /* Make links inside buttons inherit colors and remove underline */
+    header button a {
+        text-decoration: none;       /* remove underline */
+        color: inherit;               /* inherit button text color */
+        display: block;               /* make it fill the button */
+        width: 100%;
+        height: 100%;
+    }
+  
+  
