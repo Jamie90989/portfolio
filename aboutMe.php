@@ -13,6 +13,17 @@
         <?php
         navbar();
         ?>
-        <h1>about me</h1>
+        <div class="aboutMe-container">
+            <h1>Jamie van der Maat</h1>
+            <img src="img/dummyPicture.png" alt="Profile picture">
+
+            <p>
+                Hello, I am Jamie van der Maat.
+                <br>
+                I am an 18 year old software developer student at Ter AA Helmond in the Netherlands.
+                <br>
+                Right now I am in my last year of a 3 year study.
+            </p>
+        </div>
     </body>
 </html>
