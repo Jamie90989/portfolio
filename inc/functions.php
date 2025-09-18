@@ -3,8 +3,8 @@
 function navbar()
 {
     $currentPage = basename($_SERVER['PHP_SELF']);
-    ?>
-    
+?>
+
     <header>
         <a class="logo" href="index.php">
             <img src="img/portfolioLogo.png" alt="Logo">
@@ -20,9 +20,28 @@ function navbar()
                 <a href="knowledge.php">My knowledge</a>
             </button>
         </div>
+        <div class="navbarMobile">
+            <details class="navDetails">
+                <summary class="navSummary">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" class="dropdownIcon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </summary>
+                <div class="navButtons">
+                    <button class="">
+                        <a href="aboutMe.php">About me</a>
+                    </button>
+                    <button class="">
+                        <a href="projects.php">My projects</a>
+                    </button>
+                    <button class="">
+                        <a href="knowledge.php">My knowledge</a>
+                    </button>
+                </div>
+            </details>
+
+        </div>
     </header>
-    
-    <?php
+
+<?php
 }
-
-
