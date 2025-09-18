@@ -11,13 +11,13 @@ function navbar()
         </a>
         <div class="navbarCenter">
             <button class="<?= ($currentPage == 'aboutMe.php') ? 'active' : '' ?>">
-                <a href="aboutMe.php">About me</a>
+                <a href="aboutMe.php">Over mij</a>
             </button>
             <button class="<?= ($currentPage == 'projects.php') ? 'active' : '' ?>">
-                <a href="projects.php">My projects</a>
+                <a href="projects.php">Mijn Projecten</a>
             </button>
             <button class="<?= ($currentPage == 'knowledge.php') ? 'active' : '' ?>">
-                <a href="knowledge.php">My knowledge</a>
+                <a href="knowledge.php">Mijn Vaardigheden</a>
             </button>
         </div>
         <div class="navbarMobile">
@@ -29,13 +29,13 @@ function navbar()
                 </summary>
                 <div class="navButtons">
                     <button class="">
-                        <a href="aboutMe.php">About me</a>
+                        <a href="aboutMe.php">Over mij</a>
                     </button>
                     <button class="">
-                        <a href="projects.php">My projects</a>
+                        <a href="projects.php">Mijn Projecten</a>
                     </button>
                     <button class="">
-                        <a href="knowledge.php">My knowledge</a>
+                        <a href="knowledge.php">Mijn Vaardigheden</a>
                     </button>
                 </div>
             </details>
