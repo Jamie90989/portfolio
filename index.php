@@ -15,14 +15,14 @@
         ?>
          <div class="aboutMe-container">
         <h1>Jamie van der Maat</h1>
-        <img src="img/dummyPicture.png" alt="Profile picture">
+        <img src="img/profiel.jpg" alt="Profile picture">
 
         <p>
             Hallo, ik ben Jamie van der Maat.
             <br>
             Ik ben 18 jaar en ik ben een student Software Developer op het Ter AA Helmond in Nederland.
             <br>
-            Op dit moment zit ik in mijn laatste jaar van een 3-jarige opleiding.
+            Op dit moment zit ik in mijn laatste jaar van een 3-jarige opleiding op MBO niveau 4.
         </p>
     </div>
     </body>

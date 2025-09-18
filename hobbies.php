@@ -19,9 +19,11 @@
         <section class="skills-section">
             <h1 class="skills-title">Mijn hobbies</h1>
             <ul class="skills-list">
-                <li class="skill-item">Jonglerer</li>
+                <li class="skill-item">Jongleren</li>
+                <li class="skill-item">Eenwieleren</li>
                 <li class="skill-item">Cuben</li>
-                <li class="skill-item">Dingen maken</li>
+                <li class="skill-item">Turnen</li>
+                <li class="skill-item">3D-printen</li>
             </ul>
         </section>
     </div>

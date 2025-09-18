@@ -10,7 +10,7 @@ function navbar()
             <img src="img/portfolioLogo.png" alt="Logo">
         </a>
         <div class="navbarCenter">
-            <button class="<?= ($currentPage == 'aboutMe.php') ? 'active' : '' ?>">
+            <button class="<?= ($currentPage == 'hobbies.php') ? 'active' : '' ?>">
                 <a href="hobbies.php">Mijn Hobbies</a>
             </button>
             <button class="<?= ($currentPage == 'projects.php') ? 'active' : '' ?>">
