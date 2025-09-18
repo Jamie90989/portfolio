@@ -11,7 +11,7 @@ function navbar()
         </a>
         <div class="navbarCenter">
             <button class="<?= ($currentPage == 'aboutMe.php') ? 'active' : '' ?>">
-                <a href="aboutMe.php">Over mij</a>
+                <a href="hobbies.php">Mijn Hobbies</a>
             </button>
             <button class="<?= ($currentPage == 'projects.php') ? 'active' : '' ?>">
                 <a href="projects.php">Mijn Projecten</a>
@@ -29,7 +29,7 @@ function navbar()
                 </summary>
                 <div class="navButtons">
                     <button class="">
-                        <a href="aboutMe.php">Over mij</a>
+                        <a href="hobbies.php">Mijn Hobbies</a>
                     </button>
                     <button class="">
                         <a href="projects.php">Mijn Projecten</a>
