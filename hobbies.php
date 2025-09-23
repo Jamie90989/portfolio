@@ -17,15 +17,40 @@
     ?>
     <div>
         <section class="skills-section">
-            <h1 class="skills-title">Mijn hobbies</h1>
-            <ul class="skills-list">
-                <li class="skill-item">Jongleren</li>
-                <li class="skill-item">Eenwieleren</li>
-                <li class="skill-item">Cuben</li>
-                <li class="skill-item">Turnen</li>
-                <li class="skill-item">3D-printen</li>
-            </ul>
-        </section>
+        <h1 class="skills-title">Mijn hobbies</h1>
+        <ul class="skills-list">
+    <li>
+        <details class="skill-item">
+            <summary>Jongleren</summary>
+            <p class="skill-info">Ik jongleer elke week, ik kan jongleren met 3 kegels en met 3 ballen.</p>
+        </details>
+    </li>
+    <li>
+        <details class="skill-item">
+            <summary>Eenwieleren</summary>
+            <p class="skill-info">Ik vind het ooit leuk om door het bos te eenwieleren.</p>
+        </details>
+    </li>
+    <li>
+        <details class="skill-item">
+            <summary>Cuben</summary>
+            <p class="skill-info">Ik los veel verschillende soorten Rubik’s cubes op, mijn record voor een gewone 3x3 is 20 seconden.</p>
+        </details>
+    </li>
+    <li>
+        <details class="skill-item">
+            <summary>Turnen</summary>
+            <p class="skill-info">Ik turn elke week, ook geef ik elke week les.</p>
+        </details>
+    </li>
+    <li>
+        <details class="skill-item">
+            <summary>3D-printen</summary>
+            <p class="skill-info">Ik maak ooit leuke dingen met mijn 3D-Printer, ik kan het zelf ontwerpen maar ik haal het ook ooit van het internet af.</p>
+        </details>
+    </li>
+</ul>
+    </section>
     </div>
 </body>
 

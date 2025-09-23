@@ -317,8 +317,18 @@ header button a {
   .project-image {
     width: 90%;
   }
-  
+
   .projects-row {
     grid-template-columns: repeat(1, 1fr);
   }
+}
+
+/* hobbies */
+
+/* Hide the default disclosure arrow */
+.skill-item > summary::-webkit-details-marker {
+  display: none;          /* Chrome, Safari, Edge */
+}
+.skill-item > summary::marker {
+  content: none;          /* Firefox */
 }
