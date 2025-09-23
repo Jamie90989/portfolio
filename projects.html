@@ -1,4 +1,3 @@
-<?php include "inc/functions.php" ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -10,9 +9,46 @@
     <title>Portfolio</title>
 </head>
     <body>
-        <?php
-        navbar();
-        ?>
+        <header>
+        <a class="logo" href="index.html">
+            <img src="img/portfolioLogo.png" alt="Logo">
+        </a>
+        <div class="navbarCenter">
+            <button class="">
+                <a href="hobbies.html">Mijn Hobbies</a>
+            </button>
+            <button class="active">
+                <a href="projects.html">Mijn Projecten</a>
+            </button>
+            <button class="">
+                <a href="knowledge.html">Mijn Vaardigheden</a>
+            </button>
+        </div>
+        <div class="navbarMobile">
+            <details class="navDetails">
+                <summary class="navSummary">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" class="dropdownIcon">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                    </svg>
+                </summary>
+                <div class="navButtons">
+                    <button class="">
+                        <a href="hobbies.html">Mijn Hobbies</a>
+                    </button>
+                    <button class="">
+                        <a href="projects.html">Mijn Projecten</a>
+                    </button>
+                    <button class="">
+                        <a href="knowledge.html">Mijn Vaardigheden</a>
+                    </button>
+                </div>
+            </details>
+
+        </div>
+    </header>
+
+
+    
          <section class="projects-section">
         <h1 class="projects-title">Mijn Projecten</h1>
         <div class="projects-row">
@@ -29,7 +65,7 @@
                 <p>MemorAA: <br> Een Memory spel. <br> PHP, JS, HTML, CSS, Database</p>
             </div>
             <div>
-                <img onclick="window.location.href='https://https://github.com/Jamie90989/WordClock'" src="img/clock.png" alt="MemorAA" class="project-image">
+                <img onclick="window.location.href='https://github.com/Jamie90989/WordClock'" src="img/clock.png" alt="MemorAA" class="project-image">
                 <p>Word Clock: <br> Een klok die met text laat zien hoe laat het is. <br> C++, C, HTML</p>
             </div>
                <div>
