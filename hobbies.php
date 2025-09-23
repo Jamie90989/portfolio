@@ -49,6 +49,18 @@
             <p class="skill-info">Ik maak ooit leuke dingen met mijn 3D-Printer, ik kan het zelf ontwerpen maar ik haal het ook ooit van het internet af.</p>
         </details>
     </li>
+    <li>
+        <details class="skill-item">
+            <summary>Haken</summary>
+            <p class="skill-info">Ik haak ooit leuke knuffels.</p>
+        </details>
+    </li>
+    <li>
+        <details class="skill-item">
+            <summary>Verven</summary>
+            <p class="skill-info">Ik vind het ooit leuk om iets te verven of the tekenen.</p>
+        </details>
+    </li>
 </ul>
     </section>
     </div>

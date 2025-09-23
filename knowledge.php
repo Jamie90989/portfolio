@@ -18,7 +18,7 @@
         <ul class="skills-list">
             <li class="skill-item">Vloeiend Engels en Nederlands</li>
             <li class="skill-item">Microsoft Word, Excel, Outlook en PowerPoint</li>
-            <li class="skill-item">HTML, CSS, PHP, JavaScript, C#, C++, Python en SQL</li>
+            <li class="skill-item">HTML, CSS, PHP, JavaScript, C#, C++, Python, SQL en Laravel</li>
             <li class="skill-item">GitHub</li>
             <li class="skill-item">Fusion360</li>
             <li class="skill-item">Rijbewijs B</li>
